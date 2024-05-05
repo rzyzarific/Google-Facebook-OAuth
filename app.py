@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, redirect
 from authlib.integrations.flask_client import OAuth
+from python_dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
